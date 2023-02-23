@@ -57,7 +57,11 @@ int _mysetenv(info_t *info)
  * _myunsetenv - Remove an environment variable
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
+<<<<<<< HEAD
  *  Return: Always 0
+=======
+ * Return: Always 0
+>>>>>>> 8b2ff93c9be0edbc9bb1b9c480ec9a7515d78c55
  */
 int _myunsetenv(info_t *info)
 {
@@ -90,3 +94,4 @@ int populate_env_list(info_t *info)
 	info->env = node;
 	return (0);
 }
+
